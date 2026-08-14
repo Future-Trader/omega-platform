@@ -216,3 +216,25 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# OMEGA project
+.env
+.env.*
+!.env.example
+
+# Logs
+*.log
+.logs/
+
+# Next.js
+apps/web/.next/
+apps/web/node_modules/
+
+# Node
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+
+# OMEGA generator
+.omega/

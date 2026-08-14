@@ -1,0 +1,13 @@
+-r base.txt
+
+pytest
+pytest-asyncio
+pytest-cov
+
+black
+ruff
+isort
+
+mypy
+
+pre-commit
